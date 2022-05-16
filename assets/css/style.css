@@ -7,7 +7,7 @@
 .grid-container {
     display: grid;
     grid-template-areas: 
-    'nav nav'
+    'header header'
     'aside main'
     'footer footer';
     grid-template-columns: 15% auto;
@@ -15,17 +15,16 @@
     
 }
 .header{
-    grid-area: nav;
+    grid-area: header;
     background-color: #ff3f3f;
     color: #f8f8ff;
     height: 7vh;
-    
-}
-nav.header {
     text-align: center;
     line-height: 2vh;
     padding-top: 2%;
+    
 }
+
 .aside {
     grid-area: aside;
     background-color: #f9cb1b;
@@ -43,15 +42,14 @@ nav.header {
     background-color: rgb(75 27 13 / 82%);
     display: grid;
     grid-template-columns: auto auto auto;  
-    
-}
-main.main {
     gap: 2vh;
     padding-top: 3vh;
     padding-bottom: 3vh;
     padding-left: 3vh;
     padding-right: 3vh;
+    
 }
+
 .footer {
     grid-area: footer;
     background-color: #ff3f3f;
