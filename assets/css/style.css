@@ -4,6 +4,9 @@
     border: 0;
     font-family: 'Mukta', sans-serif;
 }
+h3 {
+    text-align: center;
+}
 .grid-container {
     display: grid;
     grid-template-areas: 
@@ -73,7 +76,7 @@ ul {
 .card {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 86%;
     align-items: center;
     margin: auto;
     border: 2px solid #ffffff;
